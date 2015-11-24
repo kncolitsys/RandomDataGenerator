@@ -1,0 +1,22 @@
+<application>
+
+	<name>Random Data Generator</name>
+	<version>1.1</version>
+	<description>Generates a random query. Allows you to specify columns and types of data.</description>	
+	<license>You can use this for any purpose whatsoever. If you use it for evil, I want Australia.</license>
+    <menucontributions >
+
+		<contribution target="editor">
+			<menu name="Generate Random Data">
+	    		<action name="Do It" handlerid="define" showResponse="true">
+				</action>
+			</menu>
+		</contribution>			
+
+    </menucontributions>	
+
+	<handlers>		
+		<handler id="define" type="CFM" filename="define.cfm" />
+	</handlers>
+
+</application>
